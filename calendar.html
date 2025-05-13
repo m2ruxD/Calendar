@@ -1,0 +1,939 @@
+<!doctype html> 
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title> My Calendar</title>
+    
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin-bottom: 25px;
+    }
+
+    .month-header {
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        margin-top: 50px;
+    }
+    
+    table {
+        width: 60%;
+        margin: 30px auto;
+        border-collapse: collapse;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+
+    th {
+        border: 3px black solid;
+        padding: 30px; 
+        text-align: center;
+        font-size: large;
+    }
+
+    td {
+        border: 3px black solid;
+        padding: 35px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .holiday a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .arrange{
+        margin-top: 3%;
+    }
+
+    .weekend{
+        color: rgb(94, 16, 16);
+        background-color: rgb(190, 89, 89);
+        font-size: 100%;
+    }
+
+    .weekday{
+        background-color: rgb(255, 255, 255);
+        font-size: 150%;
+    }
+
+    </style>
+</head>
+
+<body>
+<div class="month-header"><b>January 2025</b></div>
+<div class="arrange">
+        <table>
+            <tr>
+                <th class="weekend">Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th class="weekend">Sat</th>
+            </tr>
+
+            <tr>
+                <td class="weekend"></td>
+                <td></td>
+                <td></td>
+                <td class="holiday" title="New Years" style="background-image: url(https://outsourcingstaff.ph/blog/wp-content/uploads/new-years-day-in-the-philippines.png); 
+                    background-size: cover; 
+                    background-position: center; 
+                    color: red">
+                    <a href="https://en.wikipedia.org/wiki/New_Year">1</a></td>
+                <td>2</td>
+                <td>3</td>
+                <td class="weekend">4</td>
+            </tr>
+
+            <tr>
+                <td class="weekend">5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td class="weekend">11</td>
+            </tr>
+            
+            <tr>
+                <td class="weekend">12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td class="weekend">18</td>
+            </tr>
+
+            <tr>
+                <td class="holiday" title="Sinulog Festival" style="background-image: url(https://www.rappler.com/tachyon/2025/01/sinulog-opening-mass-cebu-january-10-2025-008-scaled.jpg);
+                     background-size: cover; 
+                     background-position: center; 
+                     color: rgba(26, 238, 107, 0.699)">
+                     <a href="https://en.wikipedia.org/wiki/Sinulog">19</a></td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td class="weekend">25</td>
+            </tr>
+
+            <tr>
+                <td class="weekend">26</td>
+                <td>27</td>
+                <td>28</td>
+                <td class="holiday" title="Lunar New Year" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kbkOfToYqaSEiyv1r_gKhuaHRi5UOaVAdw&s); 
+                    background-size: cover; 
+                    background-position: center;">
+                    <a href="https://lightoflove.com.ph/2025/01/07/chinese-new-year-holiday-philippines">29</a></td>
+                <td>30</td>
+                <td>31</td>
+                <td class="weekend"></td>
+            </tr>
+        
+        </table>
+    </div>
+
+<div class="month-header"><b>February 2025</b></div>
+<div class="arrange">
+    <table>
+        <tr>
+            <th class="weekend">Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th class="weekend">Sat</th>
+        </tr>
+
+        <tr>
+            <td class="weekend"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="weekend">1</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td class="weekend">8</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td class="weekend">15</td>
+        </tr>
+        
+        <tr>
+            <td class="weekend">16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td class="weekend">22</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">23</td>
+            <td>24</td>
+            <td class="holiday" title="EDSA People Revolution" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqlVrcc28azVYT_10-ns0bXhGsU3HjdWHIw&s); 
+                background-size: cover; 
+                background-position: center;">
+                <a href="https://www.gmanetwork.com/news/topstories/nation/925574/2025-philippine-holidays/story/">25</a></td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td class="weekend"></td>
+        </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>March 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="weekend">1</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td class="weekend">8</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td class="weekend">15</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td class="weekend">22</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td class="weekend">29</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">30</td>
+        <td>31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>April 2025</b></div>
+<div class="arrange">
+    <table>
+        <tr>
+            <th class="weekend">Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th class="weekend">Sat</th>
+        </tr>
+
+        <tr>
+            <td class="weekend"></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td class="weekend">5</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">6</td>
+            <td>7</td>
+            <td>8</td>
+            <td class="holiday" Title="Day of Valor" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4gNB_atcbPfjD7EzonXa-5p5Y39k9KpB_vw&s);
+                background-size: cover; 
+                background-position: center">
+                <a href="https://en.wikipedia.org/wiki/Day_of_Valor">9</a></td>
+            <td>10</td>
+            <td>11</td>
+            <td class="weekend">12</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td class="holiday" Title="Maundy Thursday" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWtQH3EgCaHGVOAQWgDoAkz6CrDFliyDFBQ&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://www.christianity.com/wiki/holidays/what-is-maundy-thursday-11628350.html">17</a></td>
+            <td class="holiday" Title="Good Friday" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpsYw1bJjqdSB6XYIpBzOvH0dhJb0WkY8CgA&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://www.christianity.com/wiki/holidays/what-s-so-good-about-good-friday.html">18</a></td>
+            <td class="holiday" Title="Holy Saturday" style="background-image:url(https://www.pravmir.com/wp-content/uploads/2021/06/Resurrection-tomb-crosses-crucifixion-1024x576-1024x585-600x343.jpg); 
+            background-size: cover; 
+            background-position: center;">
+            <a href="https://www.christianity.com/wiki/holidays/holy-saturday-date-traditions-meaning.html">19</a></td>
+        </tr>
+        
+        <tr>
+            <td class="weekend">20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td class="weekend">26</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td></td>
+            <td></td>
+            <td class="weekend"></td>
+        </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>May 2025</b></div>
+<div class="arrange">
+    <table>
+        <tr>
+            <th class="weekend">Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th class="weekend">Sat</th>
+        </tr>
+
+        <tr>
+            <td class="weekend"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="holiday" Title="Labor Day" style="background-image: url(https://theremotegroup.com/wp-content/uploads/2024/04/Labor-day-in-the-Philippines.webp); 
+                background-size: cover; 
+                background-position: center">
+                <a href="https://en.wikipedia.org/wiki/Labor_Day">1</a></td>
+            <td>2</td>
+            <td class="weekend">3</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td class="weekend">10</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td class="weekend">17</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td class="weekend">24</td>
+        </tr>
+
+        <tr>
+            <td class="weekend">25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td class="weekend">31</td>
+        </tr>
+    </table>    
+</div>
+
+<div class="month-header"><b>June 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend">1</td>   
+        <td>2</td>
+        <td>3</td> 
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td class="weekend">7</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td class="holiday" Title="Independence Day" style="background-image: url(https://asiasociety.org/sites/default/files/styles/1200w/public/2022-06/philippine%20independence.png); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://en.wikipedia.org/wiki/Independence_Day_(Philippines)#:~:text=Independence%20Day%20Filipino%3A%20Araw%20ng,been%20the%20country's%20National%20Day.">12</a></td>
+        <td>13</td>
+        <td class="weekend">14</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td class="weekend">21</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td class="weekend">28</td>
+    </tr>
+
+    <tr>
+        <td class="weeekend">29</td>
+        <td>30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>July 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td></td>
+        <td>1</td> 
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td class="weekend">5</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td class="weekend">12</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td class="weekend">19</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td class="weekend">26</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td></td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>August 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td class="weekend">2</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td class="weekend">9</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td class="weekend">16</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td class="holiday" Title="Ninoy Aquino Day" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKqWyzW4Wn4_XzStAwSnMk4JzJaLGdcYxQag&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href="http://en.wikipedia.org/wiki/Ninoy_Aquino_Day">21</a></td>
+        <td>22</td>
+        <td class="weekend">23</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">24</td>
+        <td class="holiday" Title="National Heroes Day" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiCKqkwxgyk05FwnQqZQb7t6uRxRubV499BA&s); 
+            background-size: cover; 
+            background-position: center;">
+            <a href="https://en.wikipedia.org/wiki/National_Heroes_Day_(Philippines)#:~:text=National%20Heroes%20Day%20Filipino%3A%20Pambansang,a%20tribute%20to%20Filipino%20Heroes.">25</a></td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td class="weekend">30</td>
+    </tr>
+
+    <tr>
+        <th class="weekend">31</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th class="weekend"></th>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>September 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td>1</td>
+        <td>2</td> 
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td class="weekend">6</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td class="weekend">13</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td class="weekend">20</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td class="weekend">27</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">28</td>
+        <td>29</td>
+        <td>30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>October 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td></td>
+        <td></td> 
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td class="weekend">4</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td class="weekend">11</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td class="weekend">18</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td class="weekend">25</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>November 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td></td>
+        <td></td> 
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="holiday" title="All Saints Day" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e0/All-Saints.jpg); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://www.britannica.com/topic/All-Saints-Day">1</a></td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td class="weekend">8</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td class="weekend">15</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td class="weekend">22</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td class="weekend">29</td>
+    </tr>
+
+    <tr>
+        <td class="holiday" Title="Bonifacio Day" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbdvU5CUr-UX3ER1k_zMKY8gESm16gVabXOw&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href=" https://en.wikipedia.org/wiki/Bonifacio_Day">30</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="month-header"><b>December 2025</b></div>
+<div class="arrange">
+    <table>
+    <tr>
+        <th class="weekend">Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th class="weekend">Sat</th>
+    </tr>
+    
+    <tr>
+        <td class="weekend"></td>   
+        <td>1</td>
+        <td>2</td> 
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td class="weekend">6</td>    
+    </tr>
+
+    <tr>
+        <td class="weekend">7</td>
+        <td class="holiday" Title="Feast of the Immaculate Conception" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-4t_L0NUgM4xNiSKO5Y5uUz2gJBUHtEE1w&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://en.wikipedia.org/wiki/Feast_of_the_Immaculate_Conception">8</a></td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td class="weekend">13</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td class="weekend">20</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">21</td>
+        <td>22</td>
+        <td>23</td>
+        <td class="holiday" Title="Christmas Eve" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/ChristmasEve1878.jpg/800px-ChristmasEve1878.jpg); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://en.wikipedia.org/wiki/Christmas_Eve">24</a></td>
+        <td class="holiday" Title="Christmas Day" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFVi6okRvu1Xt_oB34BfhXyIH0ydAy1DdWw&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://en.wikipedia.org/wiki/Christmas">25</a></td>
+        <td>26</td>
+        <td class="weekend">27</td>
+    </tr>
+
+    <tr>
+        <td class="weekend">28</td>
+        <td>29</td>
+        <td class="holiday" Title="Rizal Day" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/12/119th_Rizal_Day_commemoration.jpg); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://en.wikipedia.org/wiki/Rizal_Day">30</a></td>
+        <td class="holiday" Title="New Year's Eve" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4BPr18YER_FSjOY75X9RgpH-wu3u0GqcsKA&s); 
+            background-size: cover; 
+            background-position: center">
+            <a href="https://en.wikipedia.org/wiki/New_Year%27s_Eve">31</a></td>
+        <td></td>
+        <td></td>
+        <td class="weekend"></td>
+    </tr>
+    </table>
+</div>
+<!--Rhodnemar Requino 4G-->
+</body>
+</html>
